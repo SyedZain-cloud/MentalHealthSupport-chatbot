@@ -7,6 +7,7 @@ def get_response(user_message):
 
     sentiment = sentiment_analysis(user_message)
 
+    print(sentiment)
     # print("Sentiment:", repr(sentiment))
     # print("Keys:", responses.keys())
     # return responses[sentiment][0]
