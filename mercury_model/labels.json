@@ -1,0 +1,4 @@
+{
+  "labels": ["depression", "anxiety", "stress"],
+  "mapping": {"depression": 0, "anxiety": 1, "stress": 2}
+}

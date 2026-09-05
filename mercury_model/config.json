@@ -1,0 +1,21 @@
+{
+  "model_name": "MERCURY v2 robust single-checkpoint classifier",
+  "task": "Three-class inherited-label classification from English social-media text",
+  "model": {
+    "encoder": "roberta-large",
+    "adapter_config": "seq_bn",
+    "lstm_hidden_size": 256,
+    "lstm_layers": 1,
+    "pack_sequences": false,
+    "attention_hidden_size": 512,
+    "dropout": 0.5,
+    "num_classes": 3,
+    "max_length": 128
+  },
+  "preprocessing": {
+    "remove_html": true,
+    "replace_punctuation_except_apostrophes_with_space": true,
+    "collapse_whitespace": true
+  },
+  "checkpoint_key": "model_state"
+}

@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "notes": [
+    "The exact two-sided sign-flip test has minimum p=0.0625 with five pairs; p=0.0625 is not below 0.05.",
+    "Bootstrap confidence intervals are descriptive with only five seeds and must not override the exact paired test.",
+    "MERCURY improves mean natural-test and masked-test macro-F1, but is effectively tied on the balanced test.",
+    "The evidence does not support claiming statistically significant superiority at alpha=0.05.",
+    "Results apply to this dataset, split construction, and implementation; they do not independently reproduce the paper authors' private or underspecified setup."
+  ],
+  "split_identity": {
+    "test": {
+      "label_sequence_sha256": "5426c0a9a630626f40754b23e07cbf95dbdb42a4f354b55d54024e25178d8c0a",
+      "n": 3138
+    },
+    "test_balanced": {
+      "label_sequence_sha256": "9ee3e2d9a26a4bcb2c061c6050812a50252398382348c2c61685ee460dd6b7cd",
+      "n": 1029
+    },
+    "test_masked": {
+      "label_sequence_sha256": "5426c0a9a630626f40754b23e07cbf95dbdb42a4f354b55d54024e25178d8c0a",
+      "n": 3138
+    }
+  },
+  "config_sha256": {
+    "17": {
+      "ramha": "b9af07fc1d88684471e6aa6b6f16b2a98bae18f44e2ad04540aff3cdd9d0e76b",
+      "distilled": "0b8b73fde1a9ff60065a723d54409f097ddd21b9767058301e99f543b80ae3cd",
+      "mercury": "993b19a40f9455533969237dece17f925e262e982ac29ccded28dbd5a0287013"
+    },
+    "42": {
+      "ramha": "ccc2237130d9741111ed014bb5c56abe33c1528153f78c6e509e2f95fb5ef71a",
+      "distilled": "5ad5662a1f7b680dd4e2156b318cadeaa35b14941a36a5352a23f32e524804e6",
+      "mercury": "71b777f59bdbd20e499e0930a81dd244d0566434eb28e1780ce9c2662a68799c"
+    },
+    "73": {
+      "ramha": "a75bfe8705b3ba4171d95ff5aff8fa12a0447dca894b75cd048fd01e4f89d11c",
+      "distilled": "52daee2099d372b091098cf1c2b4b69b5c65fd8c5c0185042e54900aab7250af",
+      "mercury": "295b22971fa9658eb49a1078cae10cf335ded449b474ed8d9de2cb0421d8aa33"
+    },
+    "101": {
+      "ramha": "9a49b56b2a3b64bca7d84c56f595dac93ad38d6d20015ab44ab2275af14f3ece",
+      "distilled": "9b438559fc07887d34610fd7e62ad70979ed36df631084bbe006a605ad90d90c",
+      "mercury": "54fdbbd3d289524bf1ac7379beb08deff9390cf374f2f89a3ff67f501a0899d7"
+    },
+    "303": {
+      "ramha": "810231c750c495a14150944f3c51e08d9afc97d209660a5723eed0541ad8698c",
+      "distilled": "06f621aee27ae600085721124310dd5ca73e404467f9cdd1db83e2350575771c",
+      "mercury": "ef00ce6c375d738afbea4684174df3445b570709fe0f81a86c08870b71b03b21"
+    }
+  },
+  "checkpoint_sha256": {
+    "17": {
+      "ramha": "50511e789cc5f4488c490eb7dd7c88b3ed4c0121c64e76c53461cb0d61278f1b",
+      "distilled": "5601e42d0a9ee4c44889792bdf08c46a3d0643dda8eeb36f7605698d32783e70",
+      "mercury": "bd5c08cf6acc6040d828571b55931d1fe117450e1846b1f1e57b3ce242d80f49"
+    },
+    "42": {
+      "ramha": "4fc25972b3a5f8a5474359368567c4502ce81cf61610a85372f5b95ca8af3459",
+      "distilled": "b0cd912e6f995e5191ce07a265630071409834f2410e8290696b8ee2ed23cb2c",
+      "mercury": "0d028707c72591d254eee52c831d98409f9846d7f68822d4b441da67bddfaf8c"
+    },
+    "73": {
+      "ramha": "f8c359d03cfbed862338450cbcb9fe9bbddc9daad172fa03bfeddd5aa5d980ee",
+      "distilled": "da1875548a3a8c00f742aa179770d0dcdcdd1331018e62cbd9605a3653664e33",
+      "mercury": "be1e665599c385fb0fdabe0e239ae0177a3d8a65bbe6a826e45fdc79414aaea2"
+    },
+    "101": {
+      "ramha": "8616caae6a7097b86dcd24389ae8b009dbf223ce6c246f3d924ec289478777a6",
+      "distilled": "f486bb34abe421c651ed9e0284689aa56f5bf44deaafc047f8973e36c44f6981",
+      "mercury": "3784ad8b2a60612cb419e534bc5584d83e2191165326f61e046486d55107bf3f"
+    },
+    "303": {
+      "ramha": "d76f108165c306aae2908259e1863c7d720980901c4fd2a90d3dbc0af97e0c91",
+      "distilled": "c1b2085f650fce3eceead8c13fb8afcf74650f4776bb5a0a63a6d9b4bf7ff592",
+      "mercury": "4864cef03cf09699c1b0145fcd4e7223c3441298cec31c76c192535625a05eb8"
+    }
+  },
+  "rejected_directories_excluded": [
+    "rejected_corrupt_mercury_seed303_20260902",
+    "rejected_incomplete_mercury_seed17",
+    "rejected_incomplete_mercury_seed42",
+    "rejected_incomplete_mercury_seed73"
+  ],
+  "source_results_sha256": "cab55d441d2fc793250ad7cb9ad7a3841bbfe2da2438a106022780633049e810",
+  "source_manifest_sha256": "de2b58eb5669567381c5cd129562a4bacaaec441befa25cbe86d5e2c84262e11"
+}
