@@ -1,0 +1,33 @@
+intent,user_message,response,response_type
+positive,I feel happy,I'm glad to hear that! What's making you feel happy today?,positive
+positive,I'm feeling good,That's nice to hear. What has been going well for you?,positive
+positive,Today was a great day,I'm happy to hear that! What made today great?,positive
+positive,I am excited about tomorrow,That sounds exciting! What are you looking forward to?,positive
+positive,I feel proud of myself,You deserve to recognize that. What are you proud of?,positive
+positive,Something good happened today,That's wonderful. Would you like to tell me what happened?,positive
+positive,I'm enjoying my day,I'm glad you're having a good day. What are you enjoying most?,positive
+negative,I feel sad,I'm sorry you're feeling this way. Would you like to tell me what's going on?,negative
+negative,I'm feeling lonely,Feeling lonely can be difficult. Do you want to talk about what's been happening?,negative
+negative,I feel stressed,It sounds like you're dealing with a lot. What's putting the most pressure on you?,negative
+negative,I'm worried about everything,That sounds overwhelming. What is worrying you the most right now?,negative
+negative,I feel anxious,It sounds like you have a lot on your mind. What feels most difficult right now?,negative
+negative,I've been having a terrible day,I'm sorry today has been difficult. Would you like to talk about what happened?,negative
+negative,I feel upset,I'm sorry you're feeling upset. What happened?,negative
+negative,Nothing feels right today,It sounds like today has been difficult. I'm here to listen if you'd like to talk.,negative
+neutral,Hello,Hi! I'm here to listen. How are you feeling today?,greeting
+neutral,Hi,Hey! What's on your mind today?,greeting
+neutral,How are you,I'm here and ready to listen. How are you doing?,greeting
+neutral,I want to talk,Of course. What would you like to talk about?,conversation
+neutral,Can we talk,Absolutely. What's on your mind?,conversation
+neutral,I have a lot on my mind,I'm listening. What has been on your mind lately?,conversation
+neutral,I have a university assignment tomorrow,That sounds like something important to deal with. Are you feeling stressed about it?,university
+neutral,I'm studying right now,Got it. How is your studying going?,general
+neutral,I had a normal day,Thanks for telling me. Is there anything you'd like to talk about?,general
+followup,It was because of university,University can bring a lot of pressure. What happened?,followup
+followup,My exams are coming,That can definitely feel stressful. Which part of the exams worries you most?,followup
+followup,I don't know what to do,That's okay. We can take it one step at a time. What is bothering you most right now?,followup
+followup,I just need someone to listen,I'm listening. You can tell me what's been going on.,followup
+followup,I feel better now,I'm glad to hear that. What helped you feel a little better?,followup
+uncertain,I don't know how I feel,That's okay. You don't have to figure it out immediately. Can you describe what's been happening?,clarification
+uncertain,I'm confused about my feelings,It can be hard to put feelings into words. What have you noticed lately?,clarification
+uncertain,Everything feels weird,I hear you. Can you tell me a little more about what feels different?,clarification
